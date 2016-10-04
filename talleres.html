@@ -1,0 +1,54 @@
+---
+layout: page
+title: Talleres
+---
+
+<h2 class="taller_title">Sábado</h2>
+
+<div class="grilla">
+  <ul>
+    {% for taller in site.data.talleres_sab %}
+    <li>
+      <div class="taller">
+	<span class="taller-time">{{ taller.hora }}:</span>
+	<span class="taller-nombre">{{ taller.charla }}</span><br/>
+	<span class="taller-respo">Dictado por: {{ taller.responsable }}</span>
+      </div><!--/taller -->
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+
+
+<h2 class="taller_title">Domingo</h2>
+
+<div class="grilla">
+  <ul>
+    {% for taller in site.data.talleres_dom %}
+    <li>
+      <div class="taller">
+	<span class="taller-time">{{ taller.hora }}:</span>
+	<span class="taller-nombre">{{ taller.charla }}</span><br/>
+	<span class="taller-respo">Dictado por: {{ taller.responsable }}</span>
+      </div><!--/taller -->
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+
+
+<h2 class="taller_title">Lunes</h2>
+
+<div class="grilla">
+  <ul>
+    {% for taller in site.data.talleres_lun %}
+    <li>
+      <div class="taller">
+	<span class="taller-time">{{ taller.hora }}:</span>
+	<span class="taller-nombre">{{ taller.charla }}</span><br/>
+	<span class="taller-respo">Dictado por: {{ taller.responsable }}</span>
+      </div><!--/taller -->
+    </li>
+    {% endfor %}
+  </ul>
+</div>

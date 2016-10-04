@@ -1,6 +1,5 @@
 ---
 layout: page
-title: Danzas
 ---
 
 You have a handful of ways to try out LXDE.

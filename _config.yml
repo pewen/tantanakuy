@@ -2,12 +2,20 @@
 #
 
 # Site settings
+encoding: utf-8
 title: Tantanakuy
 description: Festival Artistico popular
 email: fnbellomo@gmail.com
+
+# Server
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
-permalink: pretty
+
+# Build settings
 markdown: kramdown
+permalink: pretty
 sass:
   style: compressed
+exclude: [.git, .gitignore]
+
+debug: false

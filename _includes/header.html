@@ -15,8 +15,8 @@
             <li><a href="{{ site.baseurl }}/">Inicio</a></li>
             {% for my_page in site.pages %}
             {% if my_page.title %}
-            <!-- <li><a href="{{ my_page.url | prepend: site.baseurl }}"> -->
-	    <li><a href="#">
+            <li><a href="{{ my_page.url | prepend: site.baseurl }}">
+	    <!-- <li><a href="#"> -->
               {% if my_page.short_title %}
                 {{ my_page.short_title }}
               {% else %}
