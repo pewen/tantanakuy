@@ -1,0 +1,13 @@
+# Welcome to Jekyll!
+#
+
+# Site settings
+title: Tantanakuy
+description: Festival Artistico popular
+email: fnbellomo@gmail.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+permalink: pretty
+markdown: kramdown
+sass:
+  style: compressed
