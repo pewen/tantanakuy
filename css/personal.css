@@ -153,6 +153,13 @@ Personal css
     background-color: black;
 }
 
+
+video {
+  width: 80%    !important;
+  height: auto   !important;
+}
+
+
 .video {
     margin-top: 90px;
     margin-left: auto;
